@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="495dp"
+        android:layout_height="814dp"
+        android:alpha="0.4"
+        app:srcCompat="@drawable/fon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-42dp"
+        tools:layout_editor_absoluteY="-42dp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#4254BC"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="612dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="282dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center_vertical"
+        android:insetTop="4dp"
+        android:insetBottom="4dp"
+        android:text="Ivanov.I"
+        android:textAllCaps="false"
+        android:textColor="#AAAAAA"
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="282dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center_vertical"
+        android:insetTop="4dp"
+        android:insetBottom="4dp"
+        android:text="ivanov@gmail.com"
+        android:textAllCaps="false"
+        android:textColor="#AAAAAA"
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="66dp"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/profile"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="66dp"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/mas"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="66dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/passw"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="66dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/passw"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="282dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center_vertical"
+        android:insetTop="4dp"
+        android:insetBottom="4dp"
+        android:text="••••••"
+        android:textColor="#AAAAAA"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="282dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center_vertical"
+        android:insetTop="4dp"
+        android:insetBottom="4dp"
+        android:text="••••••"
+        android:textColor="#AAAAAA"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

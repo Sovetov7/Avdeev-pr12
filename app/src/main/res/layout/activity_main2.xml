@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="495dp"
+        android:layout_height="814dp"
+        android:alpha="0.4"
+        app:srcCompat="@drawable/fon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-42dp"
+        tools:layout_editor_absoluteY="-42dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="66dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/passw"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="361dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="66dp"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/profile"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="287dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#4254BC"
+        android:text="SIGN IN"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="527dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="282dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center_vertical"
+        android:insetTop="4dp"
+        android:insetBottom="4dp"
+        android:textSize="30dp"
+        android:text="••••••"
+        android:textColor="#AAAAAA"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="361dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="282dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center_vertical"
+        android:insetTop="4dp"
+        android:insetBottom="4dp"
+        android:text="Ivanov.I"
+        android:textAllCaps="false"
+        android:textColor="#AAAAAA"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="286dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textAllCaps="false"
+        android:textColor="#C5C5C5"
+
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create A New Account?"
+        android:textAllCaps="false"
+        android:textColor="#A5A5A5"
+
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
