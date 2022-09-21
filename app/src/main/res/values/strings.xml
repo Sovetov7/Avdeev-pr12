@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Avdeev-pr12</string>
+    <string name="CAR">Kia Rio</string>
+    <string name="menuItem1">History</string>
+    <string name="menuItem2">Settings</string>
+    <string name="ex_name">Ivanov Ivan</string>
+    <string name="ex_city">Rostov</string>
+    <string name="btn_reg">SIGN UP</string>
+    <string name="ex_mail">ivanov@gmail.com</string>
+    <string name="ex_name_user">Ivanov.I</string>
+    <string name="ex_password">······</string>
+    <string name="btn_sign">SIGN IN</string>
+    <string name="forgot">Forgot Password ?</string>
+    <string name="create_acc">Create A New Account ?</string>
+    <string name="mb_facebook">SIGN IN WITH FACEBOOK</string>
+    <string name="ex_Email">E-mail: ivanov@gmail.com</string>
+    <string name="Exit">Exit</string>
+    <string name="User_full">Ivanov Ivan</string>
 </resources>
